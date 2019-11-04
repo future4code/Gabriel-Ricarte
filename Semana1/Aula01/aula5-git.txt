@@ -16,4 +16,5 @@ git cherry-pick <Commit1> <Commit2> <...> - esse comando copia os repositorios p
 git rebase -i *nome da branch* abre uma interface que permite copiar e reordernar os commits manualmente
 git merge ** - adiciona os commits da sua branch master na branch atual
 git rebase ** - o rebase é quase a mesma coisa que o merge, só que ele remove as bifurcações que o merge deixa, evitando conflitos. No Rebase ele remove o commit atual e aplica o commit selecionado na branch master reaplicando ele do commit da branch não master (a selecionada)
+--
 
