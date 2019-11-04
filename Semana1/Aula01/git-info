@@ -1,0 +1,8 @@
+1. Criando uma nova versão do projeto
+git pull - para atualizar o seu projeto com as modificações remotas
+(faz as modificações da nova versão)
+git checkout -b nova-branch
+git add --all
+git commit -m "mensagem com as modificações
+(assim que terminar tudo)
+git push origin nova-branch
