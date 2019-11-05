@@ -1,0 +1,20 @@
+git init - inicia um repositorio git
+git clone *link* - clona um repositorio git para a maquina local
+git status - verifica as alterações nos arquivos do repositorio
+git add . - adiciona todas as alterações previamente para serem comitadas
+git add *caminho do arquivo alterado* - adiciona a alteração especificada previamente para serem comitadas
+git commit -m " " - comita (Faz um comentario) sobre as alterações nos arquivos
+git commit -am " " - adiciona tudo de uma vez e ja comita as alterações dos arquivos
+git push *nome da branch* - envia a branch local para o repositorio da nuvem
+git pull master - Aplica o repositorio na nuvem sobre o seu repositorio local, é utilizado para baixar as alterações realizadas
+git config user.name - configura o repositorio local para a sua conta github, colocando o name do seu usuario
+git config user.email - configura o repositorio local para a sua conta github,
+colocando o seu email de usuario da conta
+git reset ** - reverte mudanças movendo um commit para tras
+git revert ** - reverte mudanças no repositorio git de todos os usuarios que estejam utilizando ela tbm
+git cherry-pick <Commit1> <Commit2> <...> - esse comando copia os repositorios para o repositorio atual de forma semelhante ao rebase só que de um jeito mais pratico
+git rebase -i *nome da branch* abre uma interface que permite copiar e reordernar os commits manualmente
+git merge ** - adiciona os commits da sua branch master na branch atual
+git rebase ** - o rebase é quase a mesma coisa que o merge, só que ele remove as bifurcações que o merge deixa, evitando conflitos. No Rebase ele remove o commit atual e aplica o commit selecionado na branch master reaplicando ele do commit da branch não master (a selecionada)
+--
+
