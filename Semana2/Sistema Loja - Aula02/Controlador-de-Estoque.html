@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Controlador-de-Estoque</title>
+</head>
+<body>
+    <div>
+        <div class="controladorHeader">
+            <h1>Cat Store</h1>
+        </div>
+        <div class="tableContent">
+            <table class="stockControlTable">
+                <thead>
+                    <tr>
+                        <th>Produto</th>
+                        <th>Foto</th>
+                        <th>Descrição</th>
+                        <th>Preço</th>
+                        <th>Quantidade Disponivel</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Escova Massageadora</td>
+                        <td><img src="scova-massageadora-de-gatos-para-parede-covadinha-laranja-05.jpg" width=150 height=150></td>
+                        <td>Essa escova foi desenvolvida para atender as necessidades dos gatos de esfregar e se massagear nos cantos da casa</td>
+                        <td>R$ 34,90</td>
+                        <td>20</td>
+                    </tr>
+                    <tr>
+                        <td>Banho a seco cat liquido 500ml</td>
+                        <td><img src="banhosecopetclean500ml.jpg" width=150 height=150></td>
+                        <td>
+                            <p>O Banho a Seco da Pet Clean dispensa o uso de água. Produto com aspecto liquido</p>
+                        </td>
+                        <td>R$ 17,90</td>
+                        <td>15</td>
+                    </tr>
+                    <tr>
+                        <td>Cama de gato toca dos sonhos preta</td>
+                        <td> <img src="cama-de-gato-cat-club-azul.jpg" width=150 height=150></td>
+                        <td>
+                            <p>Sua espuma de alta densidade não deixa a casinha ficar deformada, como ocorre com outras caminhas estilo toca que estão presentes no mercado.40A x 40L x 40P cm
+                            </p>
+
+                            </td>
+                        <td>R$ 109,90</td>
+                        <td>32</td>
+                    </tr>
+                    <tr>
+                        <td>Arranhador ring base de madeira</td>
+                        <td> <img src="arranhador-gato.jpg" width=150 height=150></td>
+                        <td>
+                            <p>Excelente para estimular a atividade física do seu gato, combater o stress e preservar os seus móveis. Comprimento 70cm, largura 35cm, altura 37cm.
+                            </p>
+                            </td>
+                        <td>R$ 180,90</td>
+                        <td>25</td>
+                    </tr>
+                    <tr>
+                        <td>Portinha para gatos Branca</td>
+                        <td> <img src="portinha-para-gatos-04.jpg" width=150 height=150></td>
+                        <td>
+                            <p>Agora seu gato pode circular livremente por qualquer lugar da casa sem ter que abrir as portas.</p>
+                        </td>
+                        <td>R$ 65,90</td>
+                        <td>10</td>
+                    </tr>
+
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+    <br>
+    <footer class="footerContent">
+            <button type="button" id="buttonHome" onclick="retornar()">Home</button>
+    </footer>
+    
+</body>
+<script>
+        function retornar(){
+        location.href= "Index.html";}
+</script>
+<style>
+table.stockControlTable {
+  border: 5px solid #d30f3a;
+  width: 50vw;
+  height: 50vh;
+  text-align: center;
+}
+table.stockControlTable td, table.stockControlTable th {
+  border: 1px solid #FDFDFF;
+  
+}
+table.stockControlTable tbody td {
+  font-size: 15px;
+}
+table.stockControlTable thead {
+  background: #FF344B;
+}
+table.stockControlTable thead th {
+  font-size: 19px;
+  font-weight: bold;
+  color: rgb(251, 181, 181);
+  text-align: center;
+}
+.tableContent{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+
+}
+.footerContent{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+#buttonHome{
+    
+    background-color: rgb(215, 69, 85);
+    font-size: 15px;
+    color: white;
+    border: none;
+    width: 70px;
+    height: 25px;
+
+}
+</style>
+</html>
