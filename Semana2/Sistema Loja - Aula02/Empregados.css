@@ -1,0 +1,64 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FF344B;
+    height: 15vh;
+}
+.middleContent{
+    background-image: url(./catpattern10.jpg);
+    height: 80vh;
+}
+
+.footerContent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FF344B;
+    height: 5vh;
+}
+.footerContent img{
+    padding-right: 120px;
+}
+#lastCat{
+    padding: 0px;
+}
+#buttonHome{
+    background-color: rgb(215, 69, 85);
+    font-size: 15px;
+    color: white;
+    border: none;
+    width: 70px;
+    height: 25px;
+
+}
+.header:first-child{
+    color:white;
+
+}
+div h1{
+    padding-right: 8px;
+}
+.middleContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 20vh;
+    font-size:13pt;
+}
+.middleContainer h3{
+    font-size: 16pt;
+    font-style: oblique;
+    font-family: monospace;
+}
+#buttonDiv{
+    height: 20vh;
+    justify-content: center;
+    display: flex;
+    align-items: flex-end;
+}

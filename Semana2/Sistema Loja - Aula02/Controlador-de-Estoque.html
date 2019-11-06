@@ -4,12 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="Controlador-de-Estoque.css">
     <title>Controlador-de-Estoque</title>
 </head>
 <body>
     <div>
         <div class="controladorHeader">
             <h1>Cat Store</h1>
+            <img  src="black-cat.png" width="40px" height="40px">
         </div>
         <div class="tableContent">
             <table class="stockControlTable">
@@ -69,65 +71,26 @@
                         <td>R$ 65,90</td>
                         <td>10</td>
                     </tr>
-
                 </tbody>
             </table>
+            <div id="buttonDiv"> 
+                    <button type="button" id="buttonHome" onclick="retornar()">Home</button>
+            </div>
         </div>
-
-    </div>
-    <br>
     <footer class="footerContent">
-            <button type="button" id="buttonHome" onclick="retornar()">Home</button>
+        <div>
+            <img src="cat.png" alt="" width="30px" height="30px">
+            <img src="cat.png" alt=""  width="30px" height="30px">
+            <img src="cat.png" alt="" width="30px" height="30px">
+            <img src="cat.png" alt="" width="30px" height="30px">
+            <img id="lastCat"src="cat.png" alt="" width="30px" height="30px">
+        </div>
     </footer>
+    </div>
     
 </body>
 <script>
         function retornar(){
         location.href= "Index.html";}
 </script>
-<style>
-table.stockControlTable {
-  border: 5px solid #d30f3a;
-  width: 50vw;
-  height: 50vh;
-  text-align: center;
-}
-table.stockControlTable td, table.stockControlTable th {
-  border: 1px solid #FDFDFF;
-  
-}
-table.stockControlTable tbody td {
-  font-size: 15px;
-}
-table.stockControlTable thead {
-  background: #FF344B;
-}
-table.stockControlTable thead th {
-  font-size: 19px;
-  font-weight: bold;
-  color: rgb(251, 181, 181);
-  text-align: center;
-}
-.tableContent{
-    display: flex;
-    align-content: center;
-    justify-content: center;
-
-}
-.footerContent{
-    display: flex;
-    justify-content: center;
-    align-content: center;
-}
-#buttonHome{
-    
-    background-color: rgb(215, 69, 85);
-    font-size: 15px;
-    color: white;
-    border: none;
-    width: 70px;
-    height: 25px;
-
-}
-</style>
 </html>

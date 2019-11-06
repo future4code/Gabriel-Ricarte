@@ -4,38 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="Index.css">
     <title>Home</title>
 </head>
 <body>
     <div>
-        <div>
+        <div class="header">
             <h1>Cat Store</h1>
+            <img  src="black-cat.png" width="40px" height="40px">
         </div>
-        <div>
-            <h2>Seja bem vindo a melhor loja para o seu Gatinho!</h2>
-            <p>Nossa loja está em processo de construção no momento, mas logo estaremos prontos para melhor atendê-lo!</p>
-        </div>
-        <br>
-        <div>
-            <h3>Caro colaborador, selecione uma das opções a seguir</h3>
+        <div id="middleContainer">
+            <div class="subtitleContent">
+                <h2>Seja bem vindo a melhor loja para o seu Gatinho!</h2>
+                <br>
+                <p>Nossa loja está em processo de construção no momento, mas logo estaremos prontos para melhor atendê-lo!</p>
+            </div>
             <br>
-            <lu>
-                <li>
-                    <a href="Controlador-de-Estoque.html">Controlador de Estoque </a>
-                </li>
-                <li>
-                    <a href="Adicionar-Produtos.html">
-                        Adicionar Produtos
-                    </a>
-                </li>
-                <li>
-                    <a href="Empregados.html">Funcionarios</a>
-                </li>
-            </lu>
+            <div id="middleList">
+                <h3>Caro colaborador, selecione uma das opções a seguir</h3>
+                <br>
+                <ul class="linkList">
+                    <li><a href="Controlador-de-Estoque.html">Controlador de Estoque </a></li>
+                    <li><a href="Adicionar-Produtos.html"> Adicionar Produtos</a></li>
+                    <li><a href="Empregados.html">Funcionarios</a></li>
+                </ul>
+            </div>
         </div>
     </div>
-    <footer>
-        
+    <footer class="footerContent">
+        <div>
+            <img src="cat.png" alt="" width="30px" height="30px">
+            <img src="cat.png" alt=""  width="30px" height="30px">
+            <img src="cat.png" alt="" width="30px" height="30px">
+            <img src="cat.png" alt="" width="30px" height="30px">
+            <img id="lastCat"src="cat.png" alt="" width="30px" height="30px">
+        </div>
     </footer>
 </body>
 </html>

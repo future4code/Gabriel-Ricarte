@@ -1,0 +1,75 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FF344B;
+    height: 15vh;
+}
+div h1 {
+    color: antiquewhite;
+    border: 5px;
+    padding-right: 8px;
+}
+#middleContainer{
+     background-image: url(./catpattern10.jpg);
+     height: 80vh;
+    
+     
+}
+#middleList>h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.linkList{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+.linkList a{
+    color: white;
+    font-size:13pt;
+    font-weight: bold;
+    margin: 0 auto;
+}
+ul li {
+    margin-bottom: 20px;
+    width:180px;
+    background-color: #FF344B;
+    text-align: center;
+    
+}
+.subtitleContent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 20vh;
+}
+.subtitleContent p{
+    font-weight: bold;
+    font-size: 12pt;
+}
+.footerContent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FF344B;
+    height: 5vh;
+}
+.footerContent img{
+    padding-right: 120px;
+}
+#lastCat{
+    padding: 0px;
+}
+
+
