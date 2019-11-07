@@ -34,10 +34,6 @@ div>p:first-child {
     display: inline;
 }
 
-div img {
-    background: black;
-}
-
 .botao-amarelo {
     background-color: #ffaf43;
     width: 250px;
@@ -174,4 +170,7 @@ td button:hover {
 
 #back-button:hover {
     background-color: #635a3d
+}
+#lupa-icone{
+    width: 17px;
 }
