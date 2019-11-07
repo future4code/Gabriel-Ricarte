@@ -78,8 +78,14 @@ div img {
 
 #container-para-comprar {
     background-color: #e7eb90;
+    position: relative;
 }
+#container-botao {
+    position: absolute;
+    top:50%;
+    right:40%;
 
+}
 #container-para-comprar>p {
     color: #c44f00;
     padding: 100px 0;
