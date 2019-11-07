@@ -1,0 +1,95 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+
+.controladorHeader:first-child{
+    color: white;
+    font-size: 18pt;
+}
+div h1{
+    padding-right: 5px;
+}
+.controladorHeader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FF344B;
+    height: 13vh;
+    
+}
+.tableContent{
+    background-image: url(./catpattern10.jpg);
+    height: 95vh;
+}
+table.stockControlTable {
+    border: 5px solid #d30f3a;
+    width: 76vw;
+    height: 50vh;
+    text-align: center;
+    margin-top: 10px;
+  }
+  table.stockControlTable td, table.stockControlTable th {
+    border: 1px solid #FDFDFF;
+    
+  }
+  table.stockControlTable tbody td {
+    font-size: 18px;
+    background-color: antiquewhite;
+    color: black;
+    font-weight: bold;
+  }
+  table.stockControlTable thead {
+    background: #FF344B;
+  }
+  table.stockControlTable thead th {
+    font-size: 19px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+  }
+  .tableContent{
+      display: flex;
+      align-content: center;
+      justify-content: center;
+      flex-direction: column;
+      padding-left: 10vw;
+  }
+  
+ 
+  .footerContent{
+      display: flex;
+      justify-content: center;
+      align-content: center;
+      
+  }
+  #buttonHome{
+      
+      background-color: rgb(215, 69, 85);
+      font-size: 25px;
+      color: white;
+      border: none;
+      width: 80px;
+      height: 35px;
+      padding-top: 5px;
+  
+  }
+  #buttonDiv{
+      display:flex;
+      justify-content: center;
+      padding-top: 5px;
+  }
+  .footerContent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FF344B;
+    height: 5vh;
+}
+.footerContent img{
+    padding-right: 120px;
+}
+#lastCat{
+    padding: 0px;
+}

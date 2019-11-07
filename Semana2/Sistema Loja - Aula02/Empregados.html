@@ -4,32 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="Empregados.css">
     <title>Empregados</title>
 </head>
 <body>
     <div>
-            <div>
+            <div class="header">
                 <h1>Cat Store</h1>
+                <img  src="black-cat.png" width="40px" height="40px">
             </div>
-            <div>
-                <h3>Nossos Colaboradores! =)</h3>
-            </div>
-        
-            <div>
-                <lu id="list">
-                <li><strong>Gabriel Ricarte</strong></li>
-                <li><strong>Larissa Batista</strong></li>
-                <li><strong>Gabriela Vieira</strong></li>
-                <li><strong>Felipe Chagas</strong></li>
-                <li><strong>Lucius Barbosa</strong></li>
-                <li><strong>Carol Gouveia</strong></li>
-                </lu>
-            </div>
+            <div class="middleContent">
+                <div class="middleContainer">
+                    <h3>Nossos Colaboradores! =)</h3>
+                </div>
+                <br>
+            
+                <div class="middleContainer">
+                    <ul id="namesList">
+                    <li><strong>Gabriel Ricarte</strong></li>
+                    <li><strong>Larissa Batista</strong></li>
+                    <li><strong>Gabriela Vieira</strong></li>
+                    <li><strong>Felipe Chagas</strong></li>
+                    <li><strong>Lucius Barbosa</strong></li>
+                    <li><strong>Carol Gouveia</strong></li>
+                    </ul>
+                   
+                </div>
+                <div id="buttonDiv"> 
+                    <button type="button" id="buttonHome" onclick="retornar()">Home</button>
+                </div>
+            </div>   
     </div>
-    <br>
-    <footer>
-        <button type="button" id="" onclick="retornar()">Home</button>
 
+    <footer class="footerContent">
+        <div>
+            <img src="cat.png" alt="" width="30px" height="30px">
+            <img src="cat.png" alt=""  width="30px" height="30px">
+            <img src="cat.png" alt="" width="30px" height="30px">
+            <img src="cat.png" alt="" width="30px" height="30px">
+            <img id="lastCat"src="cat.png" alt="" width="30px" height="30px">
+        </div>
     </footer>
 </body>
 <script>
