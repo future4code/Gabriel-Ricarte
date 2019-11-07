@@ -73,17 +73,19 @@ div img {
     position: absolute;
 }
 #p-container-de-descricao{
-    top: 16%;
-    left: 30%;
+    top: 11%;
+    left: 42%;
+    width: 207px;
+    text-align: center;
 }
 #ol-container-de-descricao{
-    top:18%;
-    left:42%;
+    top: 22%;
+    left: 43%;
 
 }
 #h3-container-de-descricao{
-    top:32%;
-    left:40%;
+    top: 36%;
+    left: 41%;
 
 
 }
@@ -110,6 +112,8 @@ div img {
     color: #c44f00;
     padding: 100px 0;
     font-size: 60px;
+    top: 10%;
+    position: relative;
 }
 
 
@@ -118,6 +122,9 @@ div img {
   *  ESTILOS COMPRAR 
   *
   **/
+td:nth-child(2){
+    text-align: center;
+}
 
 div:nth-child(2),
 div:last-child {
