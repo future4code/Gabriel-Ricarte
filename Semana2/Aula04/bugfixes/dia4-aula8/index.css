@@ -22,8 +22,8 @@ input {
     width: 500px;
 }
 
-button:focus {
-    color: white;
+.botao-branco:focus {
+    color: white
 }
 
 img {
@@ -140,7 +140,6 @@ td button {
     border-radius: 5px;
     color: black;
 }
-
 td button:hover {
     background-color: #c4ad31;
 }
@@ -171,6 +170,7 @@ td button:hover {
 #back-button:hover {
     background-color: #635a3d
 }
+
 #lupa-icone{
     width: 17px;
 }
