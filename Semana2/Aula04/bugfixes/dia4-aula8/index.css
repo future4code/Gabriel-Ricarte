@@ -54,7 +54,9 @@ div img {
 .container {
     height: 500px;
     text-align: center;
+    position: relative;
 }
+
 
 .icone {
     height: 15px;
@@ -67,6 +69,24 @@ div img {
   *
   **/
 
+.texto-container{
+    position: absolute;
+}
+#p-container-de-descricao{
+    top: 16%;
+    left: 30%;
+}
+#ol-container-de-descricao{
+    top:18%;
+    left:42%;
+
+}
+#h3-container-de-descricao{
+    top:32%;
+    left:40%;
+
+
+}
 #container-de-descricao {
     background-color: #2274a5;
     color: white;
