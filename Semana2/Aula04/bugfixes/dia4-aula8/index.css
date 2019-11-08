@@ -1,0 +1,198 @@
+/** 
+  *
+  *  ESTILOS GERAIS 
+  *
+  **/
+
+  @import url('https://fonts.googleapis.com/css?family=Roboto:400,400i,500,500i,700,700i,900,900i&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+h2 {
+    background-color: #fe7e02;
+    padding: 10px 5px 10px 5px;
+    color: white;
+    text-align: center;
+}
+
+input {
+    height: 20px;
+    width: 500px;
+    border: none;
+    border-bottom-style: ridge;
+    border-bottom-color: black;
+    border-bottom-width: 2px;
+}
+}
+
+.botao-branco:focus {
+    color: white;
+    font-family: 'Roboto'
+}
+
+img {
+    width: 50px;
+}
+
+div>p:first-child {
+    display: inline;
+}
+
+.botao-amarelo {
+    background-color: #ffaf43;
+    width: 250px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 20px;
+    color: white;
+}
+
+.botao-amarelo:hover {
+    background-color: #c44f00;
+}
+
+.container {
+    height: 500px;
+    text-align: center;
+    position: relative;
+}
+
+
+.icone {
+    height: 15px;
+}
+
+
+/** 
+  *
+  *  ESTILOS HOME 
+  *
+  **/
+
+.texto-container{
+    position: absolute;
+}
+#p-container-de-descricao{
+    top: 11%;
+    left: 42%;
+    width: 207px;
+    text-align: center;
+}
+#ol-container-de-descricao{
+    top: 22%;
+    left: 43%;
+
+}
+#h3-container-de-descricao{
+    top: 36%;
+    left: 41%;
+
+
+}
+#container-de-descricao {
+    background-color: #2274a5;
+    color: white;
+}
+
+#container-de-descricao>ol {
+    padding: 15px 0px;
+}
+
+#container-para-comprar {
+    background-color: #e7eb90;
+    position: relative;
+}
+#container-botao {
+    position: absolute;
+    top:50%;
+    right:40%;
+
+}
+#container-para-comprar>p {
+    color: #c44f00;
+    padding: 100px 0;
+    font-size: 60px;
+    top: 10%;
+    position: relative;
+}
+
+
+/**
+  *
+  *  ESTILOS COMPRAR 
+  *
+  **/
+td:nth-child(2){
+    text-align: center;
+}
+
+#voltar-button{
+    position: absolute;
+    margin-right: auto;
+    bottom: 5%;
+}
+#div-voltar{
+    height: 150px;
+    position: relative;
+    right: 3%;
+}
+
+div:nth-child(2),
+div:last-child {
+    text-align: center;
+}
+
+table {
+    width: 75%;
+    margin-left: 20%;
+    margin-right: auto;
+}
+
+td button {
+    background-color: #fadf63;
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    color: black;
+    border: none;
+    font-size: 12pt;
+}
+td button:hover {
+    background-color: #c4ad31;
+}
+
+.container-do-search {
+    margin-top: 20px;
+    height: 100px;
+}
+
+.container-do-search img:hover {
+    opacity: 30%;
+}
+
+.container-do-search img:active {
+    opacity: 100%;
+}
+
+#back-button {
+    background-color: white;
+    width: 100px;
+    height: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 10px;
+    color: black;
+}
+
+#back-button:hover {
+    background-color: #635a3d
+}
+
+#lupa-icone{
+    width: 17px;
+}
