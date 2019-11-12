@@ -243,14 +243,14 @@ body{
         display: flex;
         flex-direction: column;
     }
-    .SecondContainer>div{
+    .SecondContainerGrid>div{
         margin: 5px;
     }
     .ThirdContainer{
         display: flex;
         flex-direction: column;
     }
-    .ThirdContainer>div{
+    .ThirdContainerGrid>div{
         margin: 5px;
 
     }

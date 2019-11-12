@@ -28,7 +28,7 @@ body{
     margin-left: 10px;
     margin-right: 10px;
 }
-.FirstContainer{
+.FirstContainerGrid{
     background-color:white;
     width: 100%;
   
@@ -62,6 +62,9 @@ body{
     margin-right: 2px;
 }
 
+.FirstContainerGrid, .SecondContainerGrid, .ThirdContainerGrid{
+   
+}
 #firstPartContainer{
     display: flex;
     margin-bottom: 2px;
@@ -70,13 +73,13 @@ body{
     display: flex;
 }
 
-.SecondContainer{
+.SecondContainerGrid{
     width: 100%;
     margin: 10px 0;
     display: flex;
 
 }
-.ThirdContainer{
+.ThirdContainerGrid{
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -86,7 +89,7 @@ body{
 #quadrado9, #quadrado10, #quadrado11{
     width: 30%;
 }
-.SecondContainer>div{
+.SecondContainerGrid>div{
  color: aliceblue;
  display: flex;
  align-items: center;
@@ -100,7 +103,7 @@ body{
     height: 150px;
     justify-content: center;
 }
-.ThirdContainer>div{
+.ThirdContainerGrid>div{
     border: solid;
     background-color:white;
     align-items: center;
@@ -115,13 +118,13 @@ body{
     
    
    
-    .FirstContainer{
+    .FirstContainerGrid{
         
         flex-wrap: wrap;
         
 
     }
-    .FirstContainer>div{
+    .FirstContainerGrid>div{
         min-height: 80px;
     }
     
@@ -155,7 +158,7 @@ body{
     #quadrado1, #quadrado2{
         height: 60vh;
     }
-    .ThirdContainer{
+    .ThirdContainerGrid{
         flex-wrap: wrap;
     }
     #quadrado11{
@@ -186,12 +189,12 @@ body{
 }
 @media(max-width:780px){
 
-    .FirstContainer{
+    .FirstContainerGrid{
        
        display:flex;
        flex-direction: column;
     }
-    .FirstContainer>div{
+    .FirstContainerGrid>div{
         margin:5px;
 
     }
@@ -239,18 +242,18 @@ body{
 
    }
 
-    .SecondContainer{
+    .SecondContainerGrid{
         display: flex;
         flex-direction: column;
     }
-    .SecondContainer>div{
+    .SecondContainerGrid>div{
         margin: 5px;
     }
-    .ThirdContainer{
+    .ThirdContainerGrid{
         display: flex;
         flex-direction: column;
     }
-    .ThirdContainer>div{
+    .ThirdContainerGrid>div{
         margin: 5px;
 
     }

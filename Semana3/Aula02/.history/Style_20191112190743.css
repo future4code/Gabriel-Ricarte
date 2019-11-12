@@ -191,7 +191,7 @@ body{
        display:flex;
        flex-direction: column;
     }
-    .FirstContainer>div{
+    .FirstContainerGrid>div{
         margin:5px;
 
     }
@@ -239,18 +239,18 @@ body{
 
    }
 
-    .SecondContainer{
+    .SecondContainerGrid{
         display: flex;
         flex-direction: column;
     }
-    .SecondContainer>div{
+    .SecondContainerGrid>div{
         margin: 5px;
     }
-    .ThirdContainer{
+    .ThirdContainerGrid{
         display: flex;
         flex-direction: column;
     }
-    .ThirdContainer>div{
+    .ThirdContainerGrid>div{
         margin: 5px;
 
     }
