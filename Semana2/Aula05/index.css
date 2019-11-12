@@ -1,0 +1,121 @@
+*{
+    margin: 0%;
+    padding: 0%; 
+}
+#main{
+    background-color: black;
+    position: relative;
+    height: 15vh;
+}
+
+ul{
+    list-style-type: none;
+}
+#mainContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    width: 100%;
+    height: 110vh;
+    background-image: url(https://stmed.net/sites/default/files/pattern-wallpapers-25274-1944126.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+#middleContainer{
+    width:1033px;
+    height: 600px;
+    background-color: black;
+    background-color: rgba(29, 23, 23, 0.7);
+    border: 1.5px solid #111544;
+    color:white;
+    
+}
+#middleContainer div p{
+    color:white;
+    text-align: center;
+    padding-top: 5px;
+}
+#footer{
+    background-color: black;
+    color:white;
+    text-align: center;
+    
+}
+#footer div p{
+    padding-top: 4px;
+    font-size:11.5pt;
+    margin-bottom:5px;
+    font-family: 'Roboto', sans-serif;
+}
+  
+.redirectSocial{
+    margin-right:15px;
+}
+#topo{
+    align-content: center;
+    font-size: 12px;
+    position: absolute;
+    width: 100%;
+    margin-top: 5px;  
+}
+#topo h1{
+    text-align: center;
+    margin:  auto;
+    border: solid 1px white;
+    font-family: 'Bad Script', cursive;
+    padding-right: 30px;
+    color: #FFFFFF;
+}
+#topo h1:hover{
+    background-color: white;
+    color: black;
+}
+#linkContainer a:hover{
+    color:white;
+}
+a[href="index.html"]{
+    text-decoration: none;    
+}
+#linkContainer{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-top:10px    
+}
+#linkContainer a{
+    font-size:12pt;
+    color: #cb1887;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;  
+}
+#projectParagraph{
+    padding-left: 80px;
+}
+.gradienteEffect{
+    background: linear-gradient(to right,#cb1887 0,#1aced5 100%);
+    height: 6px;
+}
+
+
+/*Fora do codigo Base*/
+#divSelfie{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:50px;
+    padding-right: 30px;
+}
+#divSelfie img{
+    border: 1px solid #3a3535;
+}
+#divSecondParagraph{
+    height: 113px;
+    display: flex;
+    align-items: center;
+    margin-right: 70px;
+    margin-left: 166px;
+}
+#firstParagraph p{
+    font-size: 13pt;
+    font-family: monospace;
+}
