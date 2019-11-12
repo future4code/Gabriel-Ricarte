@@ -73,7 +73,7 @@ ul{
 #linkContainer a:hover{
     color:white;
 }
-a[href="Index.html"]{
+a[href="index.html"]{
     text-decoration: none;    
 }
 #linkContainer{
@@ -138,8 +138,6 @@ a[href="Index.html"]{
 #thirdInstitution{
     display: flex;
     margin-left: 10%;
-}
-#skillsTitle{
 }
 #skillsTitle>p{
     font-family: monospace;

@@ -73,7 +73,7 @@ ul{
 #linkContainer a:hover{
     color:white;
 }
-a[href="Index.html"]{
+a[href="index.html"]{
     text-decoration: none;    
 }
 #linkContainer{
