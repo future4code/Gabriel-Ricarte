@@ -1,0 +1,262 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.flexBox{
+    display:flex;
+}
+#lista{
+    margin:10px;
+}
+.barraLateral{
+    background-color: grey;
+    height: 100vh;
+    width: 20vw;
+    position: fixed;
+
+}
+.barraSuperior{
+    background-color: red;
+    height: 10vh;
+    width: 100%;
+    margin-bottom: 10px;
+
+}
+.paragrafoLista{
+    border-left-width: 10px;
+    padding-left: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.FirstContainer{
+    background-color:white;
+    width: 100%;
+  
+
+}
+.mainContent{
+    margin-left: 21vw;
+    
+}
+
+#superior1, #inferior4{
+    background-color: blue;
+    flex-grow: 1;
+    margin-right: 2px;
+   
+}
+#superior2, #inferior5{
+    background-color: yellow;
+    flex-grow: 1;
+    margin-right: 2px;
+
+}
+#superior3, #inferior6{
+ background-color: green;
+ flex-grow: 1;
+ margin-right: 2px;
+}
+#quadrado1,#quadrado2{
+    background-color: black;
+    flex-grow: 1;
+    margin-right: 2px;
+}
+
+#firstPartContainer{
+    display: flex;
+    margin-bottom: 2px;
+}
+#secondPartContainer{
+    display: flex;
+}
+
+.SecondContainer{
+    width: 100%;
+    margin: 10px 0;
+    display: flex;
+
+}
+.ThirdContainer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+
+}
+#quadrado9, #quadrado10, #quadrado11{
+    width: 30%;
+}
+.SecondContainer>div{
+ color: aliceblue;
+ display: flex;
+ align-items: center;
+ height: 240px;
+ justify-content: center;
+}
+#superior1,#superior2,#superior3,#inferior4,#inferior5,#inferior6{
+    border: solid;
+    display: flex;
+    align-items: center;
+    height: 150px;
+    justify-content: center;
+}
+.ThirdContainer>div{
+    border: solid;
+    background-color:white;
+    align-items: center;
+    display: flex;
+    height: 180px;
+    justify-content: center;
+}
+
+
+
+@media (max-width:1000px){
+    
+   
+   
+    .FirstContainer{
+        
+        flex-wrap: wrap;
+        
+
+    }
+    .FirstContainer>div{
+        min-height: 80px;
+    }
+    
+    #firstPartContainer{
+        flex-wrap: wrap;
+    }
+    #superior1, #superior2{
+        margin: 5px;
+    }
+    #superior3{
+        width: 100%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin:6px;
+    }
+    #secondPartContainer{
+        flex-wrap: wrap;
+    }
+    #inferior4, #inferior5{
+        margin:5px;
+    }
+    #inferior6{
+        width: 100%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin:6px;
+    }
+    #quadrado1{
+        margin-right: 20px;
+    }
+    #quadrado1, #quadrado2{
+        height: 60vh;
+    }
+    .ThirdContainer{
+        flex-wrap: wrap;
+    }
+    #quadrado11{
+        width: 100%;
+        margin-top:10px
+    }
+    #quadrado9, #quadrado10{
+        width: 48%;
+    }
+
+
+
+
+
+}
+@media(max-width:850px){
+    .mainContent{
+        margin-left: 0;
+    }
+    
+    .barraLateral{
+        display:none;
+        
+
+    }
+
+
+}
+@media(max-width:780px){
+
+    .FirstContainer{
+       
+       display:flex;
+       flex-direction: column;
+    }
+    .FirstContainer>div{
+        margin:5px;
+
+    }
+    #firstPartContainer{
+        display: block;
+        margin-bottom: 2px;
+    }
+    #superior1, #superior2{
+        margin: 5px;
+    }
+    #superior3{
+        margin-right: 5px;
+        margin-left: 5px;
+        margin-bottom:0px;
+        width:97%;
+    }
+
+   #secondPartContainer{
+       display: block;
+   }
+    #quadrado1{
+        margin:5px;
+        margin-top:0px;
+
+    }
+    #quadrado2{
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+   
+   #inferior4{ 
+    margin: 5px;
+    margin-top:0px;
+   }
+   #inferior5{
+       margin: 5px;
+   }
+   #inferior6{
+       margin:5px;
+       margin-bottom:0px;
+       width:97%;
+   }
+   #quadrado9, #quadrado10, #quadrado11{
+       width: 98%;
+
+   }
+
+    .SecondContainer{
+        display: flex;
+        flex-direction: column;
+    }
+    .SecondContainer>div{
+        margin: 5px;
+    }
+    .ThirdContainer{
+        display: flex;
+        flex-direction: column;
+    }
+    .ThirdContainer>div{
+        margin: 5px;
+
+    }
+
+    
+
+
+   
+}
