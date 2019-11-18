@@ -1,0 +1,65 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+nav{
+    background-color: #EF843A;
+    height: 10vh;
+}
+nav div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    margin-right: 42px;
+    margin-left: 42px;
+    
+}
+div>h1{
+    font-weight: bold;
+    font-size: 25px;
+}
+main{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-auto-rows: 1fr 1fr;
+    width: 96%;
+    height: 80vh;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.sectionMain{
+    border-color: #077607;
+    border-style: solid;
+    margin: 10px;
+    border-width: 2px;
+    height: 30vh;
+    display: grid;
+    grid-template-rows: 2fr 1fr;
+    margin-left: 15px;
+}
+.videoDescription{
+    display: flex;
+    flex-direction: center;
+    align-items: center;
+    font-weight: bold;
+    padding-left: 5px;
+}
+.videoImage{
+    border: solid;
+    border-color: #36961b;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-width: 2px;
+}
+footer{
+    background-color: grey;
+    width: 100%;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+}
+
+/* fim codigo index*/
