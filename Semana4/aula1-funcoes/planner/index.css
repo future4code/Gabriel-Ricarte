@@ -1,7 +1,12 @@
 header{
     display: flex;
     justify-content: center;
-    margin: 20px 0;
+    margin-top: 0px;
+    padding-top: 19px;
+    padding-bottom:10px;
+    background-color: #b7eab4;
+    margin-bottom:15px;
+
 }
 
 main {
@@ -9,13 +14,25 @@ main {
     flex-wrap: wrap;
     margin: 0 10px;
     justify-content: center;
+    background-color: #f0f5ae;
+    border:5px;
 }
 main>div{
-    border: 1px dashed black;
-    min-height: 25vh;
+    border: 1px dashed rgb(29, 91, 206);
+    min-height: 35vh;
     margin: 10px;
     padding: 10px;
-    height: 50vh;
+    height: 60vh;
     min-width: 400px;
     font-size: 18px;
+    
+}
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: #ffffff;
+}
+#divSelect {
+    padding-left: 5px;
+    padding-right: 5px;
 }
