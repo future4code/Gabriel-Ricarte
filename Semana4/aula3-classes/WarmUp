@@ -1,0 +1,30 @@
+O codigo abaxio esta errado, corrija-o para que funcione
+
+
+const pessoa = {
+    nome;
+    idade;
+    atualizaIdade
+}
+
+function adicionaIdade(idade) {
+    pessoa.idade += idade
+}
+
+pessoa.atualizaIdade = adicionaIdade()
+pessoa.atualizaIdade(2)
+----------------------
+Gabarito:
+
+const pessoa = {
+    nome: "",
+    idade: 0,
+    atualizaIdade: () => {}
+}
+
+function adicionaIdade(idade) {
+    pessoa.idade += idade
+}
+
+pessoa.atualizaIdade = adicionaIdade
+pessoa.atualizaIdade(2)
