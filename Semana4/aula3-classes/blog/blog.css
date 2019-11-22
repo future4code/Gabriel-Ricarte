@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#formSection form{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    align-items: flex-start;
+}
+#title{
+    margin:10px;
+}
+#button{
+    margin:10px;
+}
+.posts-gerados{
+    border: 1px solid black;
+    margin-top: 5px;
+    background-color: sandybrown;
+}
