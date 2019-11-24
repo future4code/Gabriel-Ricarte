@@ -15,16 +15,15 @@ class Despesa{
     
     cadastrarDespesa(){
         const divDespesaCadastrada = "<div class='despesa-cadastrada'> <div> "+this.tipo+"</div> <br> <div> R$"+this.valor+"</div> <br> <div>"+this.descricao+"</div> </div>"
-        return divDespesaCadastrada
+        return divDespesaCadastrada;
 
     }
-    imprimirExtrato(){
-        const divExtrato
-    }
+
 
 }
 
 let arrayOfPosts = []
+let arrayFilter = []
 
 function lancarDespesa(){
     const valueInput = document.getElementById("valor").value
@@ -39,10 +38,17 @@ function lancarDespesa(){
     for (let expense of arrayOfPosts){
         expenseDetails.innerHTML += expense.cadastrarDespesa()
     }
-
+    limparInput();
 
 }
 
 function filtrarDespesa(){
-    
+    const maxValue = document.getElementById("valorMaximo").value
+    const minimunValue = document.getElementById("valorMinimo").value
+    const valueTypeSelector = document.getElementById("typeSelectorExpense").value
+    const expenseDetails = document.getElementById("expense-details")
+    expenseDetails.innerHTML = "";
+
+
+
 }
