@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="despesas.css">
+    <script type="text/javascript" src="despesas.js" defer></script>
+    <title>Controlado de Despesas</title>
+
+</head>
+<body>
+    <header>
+            <h1>Controlado de Despesas</h1>
+    </header>
+    <main>
+        <section>
+        <div>
+            <h3>
+                    Cadastrar Despesa
+            </h3>
+        </div>
+        <div class="flex-organization">
+            <label for="valor">Valor:</label>
+            <input id="valor" type="number">
+        </div>
+        <div>
+            <label for="typeSelector">Tipo -</label>
+            <select id="typeSelector">
+                <option value="casa">Casa</option>
+                <option value="lazer">Lazer</option>
+                <option value="pessoal">Pessoal</option>
+            </select>
+        </div>
+        <div class="flex-organization">
+            <label for="descricao">Descrição:</label>
+            <textarea id="descricao" rows="5" cols="20"></textarea>
+        </div>
+        <div>
+            <button class="div-button" onclick="lancarDespesa()">Cadastrar Despesa</button>
+        </div>
+        <div id="expense-details">
+
+        </div>
+        </section>
+        <section>
+            <div>
+                <h3>
+                    Despesas Detalhadas
+                </h3>
+            </div>
+            <div>
+                <label for="typeSelectorExpense">Tipo -</label>
+                <select id="typeSelectorExpense">
+                    <option value="casa">Casa</option>
+                    <option value="lazer">Lazer</option>
+                    <option value="pessoal">Pessoal</option>
+                </select>
+                
+            </div>
+            <div class="flex-organization">
+                <label>Valor Minimo</label>
+                <input type="number"  id="valorMinimo">
+                <label>Valor Maximo</label>
+                <input type="number" id="valorMaximo">
+            </div>
+            <div class="div-button">
+                <button>Filtrar</button>
+            </div>
+            <div class="div-button">
+                <button>Limpar Filtro</button>
+            </div>
+            
+        </section>
+        <section>
+            <h3>Extrato</h3>
+            <div>
+                <label>Valor Total:</label>
+                <div id="totalValue">
+
+                </div>
+            </div>
+        </section>
+    </main>    
+</body>
+</html>
