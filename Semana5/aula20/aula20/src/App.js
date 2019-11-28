@@ -3,7 +3,7 @@ import InstaContainer from './Components/InstaContainer/InstaContainer';
 import './App.css';
 import styled from 'styled-components';
 
-const mainAppDiv = styled.div`
+const MainAppDiv = styled.div`
   display: flex;
   align-items: center;  
   height: 90%;
@@ -28,7 +28,7 @@ class App extends React.Component{
   
 
   render(){
-    const liked = require("./img/favorite-white.svg")
+    let liked = require("./img/favorite-white.svg")
     function mudarImagem(){
       if(this.state.imagemCurtiu === true){
         liked = require("./img/favorite.svg")
@@ -51,7 +51,7 @@ class App extends React.Component{
     
    
 return(
-      <mainAppDiv>
+      <MainAppDiv>
         <InstaContainer
         nomeAutor = {primeiroPost.nomeAutor}
         imagemPost = {primeiroPost.imagemPost}
@@ -66,7 +66,7 @@ return(
         {/* <InstaContainer></InstaContainer>
         <InstaContainer></InstaContainer> */}
         
-        </mainAppDiv>
+        </MainAppDiv>
 
 
     )
