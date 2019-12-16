@@ -6,27 +6,27 @@ import List from './Lista';
 import {resquest} from 'https';
 
 const TextDiv = styled.div`
-text-align: center;
-text-decoration: underline;
-text-decoration-color: black;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: black;
 `
 const MaindDivContent = styled.div`
 
 `
 const SectionDiv = styled.div`
-display:flex;
-justify-content: center;
+    display:flex;
+    justify-content: center;
 
 
 `
 const TitleLabel = styled.label`
-margin-right: 10px;
+    margin-right: 10px;
 
 
 `
 const SpecialInput = styled.input`
-color: white;
-margin-top: 10px;
+  color: white;
+  margin-top: 10px;
   margin-right:5px;
   padding: 10px 20px 10px 14px;
   border: 1px solid #b7b7b7;
@@ -52,8 +52,6 @@ margin-top: 10px;
 
 `
 const DeleteButton = styled.button`
-
-  
   -webkit-box-sizing: content-box;
   -moz-box-sizing: content-box;
   box-sizing: content-box;
@@ -79,7 +77,6 @@ const DeleteButton = styled.button`
       color:black;
   }
 
-
 `
 class Content extends React.Component{
     constructor(props){
@@ -92,7 +89,7 @@ class Content extends React.Component{
 
 
     componentDidMount(){
-            
+          //Nao devo usar no momento  
 
     }
 
@@ -105,8 +102,11 @@ class Content extends React.Component{
                 </TextDiv>
                 <SectionDiv>
                     <TitleLabel></TitleLabel>
-                    <SpecialInput onChange={this.props.onChangeCreatePlaylistInput}
-                    value={this.props.userPlaylist} placeholder="Digite um nome Para a Platlist">
+                    <SpecialInput 
+                    onChange={this.props.onChangeCreatePlaylistInput}
+                    value={this.props.userPlaylist} 
+                    // id={'userPlaylist'} //preciso linkar um id mas nao sei como fazer sem por nesse component
+                    placeholder="Digite um nome Para a Platlist">
                     
                     </SpecialInput>
                     <DeleteButton onClick={this.props.funcaoCriar}>Enviar</DeleteButton>
